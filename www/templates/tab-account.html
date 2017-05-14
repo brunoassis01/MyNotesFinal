@@ -1,0 +1,31 @@
+<ion-view view-title="Account">
+  <ion-content padding="true" scroll="false">
+        <form name="userForm" ng-submit="saveAccount()">
+          <div class="row responsive-md">
+                <div class="col col-50 col-offset-25">
+                    <div class="list">
+                        <input type="hidden" ng-model="account.id" >
+                        <label class="item item-input">
+                            <input type="text" placeholder="Complete Name" ng-model="account.name" required>
+                        </label>
+                        
+                        <label class="item item-input">
+                             <input type="email" ng-model="account.email" disabled placeholder="Your Email" required>
+                        </label>
+                        <label class="item item-input">
+                             <input type="password" ng-model="account.password" id="password" placeholder="Password" ng-minlength="6" required>
+                        </label>
+                        <label class="item item-input">
+                             <input type="password" ng-model="account.repassword" placeholder="Repeat the password" ng-minlength="6" required>
+                        </label>
+                    </div>
+
+                    <button class="button button-block button-positive" type="submit">Save</button>
+                    <button class="button button-block button-assertive" ng-click="logout()">Logout</button>
+                </div>
+            </div>
+
+      </form>
+
+  </ion-content>
+</ion-view>

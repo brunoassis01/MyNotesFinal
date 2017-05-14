@@ -1,0 +1,43 @@
+#login, #register {
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .scroll-content {
+    display: table !important;
+    width: 100% !important;
+    height: 100% !important;
+
+    form {
+      display: table-cell;
+      vertical-align: middle;
+
+      .header {
+        padding-bottom: 20px;
+
+        img {
+          display: block;
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+
+      .button.button-light.active, .button.button-light.activated {
+        color: #fff;
+        opacity: inherit;
+      }
+    }
+  }
+}
+
+.border-around{
+  border:1px solid rgba(2,2,2,0.1);
+  border-radius: 6px;
+  vertical-align: text-bottom;
+}
+
+*[contenteditable] {
+-webkit-user-select: text !important;
+}
