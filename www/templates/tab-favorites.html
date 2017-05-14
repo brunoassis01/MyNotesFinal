@@ -1,0 +1,15 @@
+<ion-view  view-title="Favorites">
+  <ion-content>    
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="favorite in favorites" type="item-text-wrap" href="#/tab/notes/{{favorite.id}}"> <!-- | favoriteFilter:favorites -->
+        <h2>{{favorite.title}}</h2>
+        <p>{{favorite.dateModification | date:'MMM. dd, yyyy'}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="deleteFavorite(favorite.id)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

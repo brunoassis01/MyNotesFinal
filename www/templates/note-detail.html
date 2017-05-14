@@ -1,0 +1,25 @@
+<ion-view view-title="{{note.title}}" >
+  <ion-content class="padding">
+  
+    <form name='myForm' ng-submit="saveNote()">
+      <input type="hidden" ng-model="note.id">
+      <label class="item item-input">
+          <input type="text" class="text-center" placeholder="Title" ng-model="note.title" required>
+      </label>
+      <h6 class="text-right">{{note.dateModification | date:'MMM. dd, yyyy'}}</h6>
+      <!--<div text-angular ta-target-toolbars="toolbar" ng-model="htmlContent"></div>-->
+      
+
+      <div text-angular ta-toolbar="[['h1','h2','h3', 'h4', 'h5', 'h6', 'p', 'quote', 'pre', 'bold','underline', 'clear', 'justifyLeft', 'justifyCenter', 'justifyRight','html']]" ng-model="note.content" name="demo-editor" ta-text-editor-class="border-around padding" ta-html-editor-class="border-around">
+      </div>
+
+       <button class="button button-block button-positive" type="submit">Save</button>
+
+    </form>
+    <button class="button button-block button-balanced" ng-click="back()">Back</button>
+    <!--<span ng-hide="editing" ng-click="editing = true">Teste</span>
+    <p ng-show="editing"></p>-->
+    <!-- Inline edit js angular -->
+    
+  </ion-content>
+</ion-view>
