@@ -1,0 +1,126 @@
+{
+  "notes": [
+    {
+      "id": 6,
+      "idUser": 2,
+      "title": "My new note2",
+      "content": "Only comments",
+      "dateModification": "2017-05-12T19:42:09.650Z"
+    },
+    {
+      "idUser": 3,
+      "title": "teste",
+      "content": "teste",
+      "dateModification": "2017-05-12T20:40:56.191Z",
+      "id": 7
+    },
+    {
+      "id": 5,
+      "idUser": 3,
+      "title": "Note1",
+      "content": "Teste",
+      "dateModification": "2017-05-12T20:53:40.850Z"
+    },
+    {
+      "id": 8,
+      "idUser": 4,
+      "title": "My first Note 2",
+      "content": "<h1>Hey Gracie</h1>",
+      "dateModification": "2017-05-12T22:20:54.715Z"
+    },
+    {
+      "idUser": 1,
+      "title": "test",
+      "content": "test",
+      "dateModification": "2017-05-14T03:13:29.572Z",
+      "id": 9
+    },
+    {
+      "id": 3,
+      "idUser": 1,
+      "title": "Remember",
+      "content": "Testa<div>sd</div><div>as</div><div>d</div><div>as</div><div>d</div>",
+      "dateModification": "2017-05-14T16:07:40.372Z"
+    },
+    {
+      "idUser": 1,
+      "title": "Test 5",
+      "content": "<div><span><b>This is only test</b></span></div><div><span><b><br></b></span></div><div><span><u>A rich wysiwyg text editor directive for angularjs</u></span><br></div><div><span><b><br></b></span></div>",
+      "dateModification": "2017-05-14T16:50:19.220Z",
+      "id": 10
+    },
+    {
+      "id": 4,
+      "idUser": 1,
+      "title": "Title 6",
+      "content": "This is wicked good ice cream.",
+      "dateModification": "2017-05-14T16:50:43.595Z"
+    }
+  ],
+  "users": [
+    {
+      "name": "Graciele",
+      "email": "graciele@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "bruno ribeiro",
+      "email": "bruno@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "bruno testeqe",
+      "email": "bruno2@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Graciele Damasceno",
+      "email": "graciele2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "favorites": [
+    {
+      "idNote": 3,
+      "idUser": 1,
+      "title": "Note 4",
+      "content": "Look at my mukluks!",
+      "dateModification": "2017-05-01",
+      "id": 3
+    },
+    {
+      "idNote": 5,
+      "idUser": 2,
+      "title": "Note1",
+      "content": "Teste",
+      "dateModification": "2017-05-12T19:30:47.925Z",
+      "id": 4
+    },
+    {
+      "idNote": 7,
+      "idUser": 3,
+      "title": "teste",
+      "content": "teste",
+      "dateModification": "2017-05-12T20:40:56.191Z",
+      "id": 5
+    },
+    {
+      "idNote": 9,
+      "idUser": 1,
+      "title": "test",
+      "content": "test",
+      "dateModification": "2017-05-14T03:13:29.572Z",
+      "id": 6
+    }
+  ]
+}
